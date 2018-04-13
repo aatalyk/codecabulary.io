@@ -1,0 +1,248 @@
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  background-image: none;
+  box-shadow: none;
+  margin-top: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #777;
+  font-size: 16px;
+  font-family: 'Merriweather', serif;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul.letter {
+  list-style-type: none;
+  text-align: left;
+}
+
+ul.subject {
+  list-style-type: none;
+  margin-left: 50px;
+}
+
+li.letter {
+  font-size: 25px;
+}
+
+div.Main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.codecabulary {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a.search {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a.new {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+p.like {
+    color: #f1c40f;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+li.letter {
+  color: #f4c20d;
+  text-decoration: none;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #ffffff;
+    border: 0px solid #ffffff;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+}
+
+.list-group {
+    box-shadow: rgba(0, 0, 0, 0) 0px 1px 2px;
+    border-radius: 4px;
+}
+
+.page-header {
+  font-size: 20px;
+}
+
+textarea.linkarea {
+    min-width: 1140px;
+    display: unset;
+    width: auto !important;
+    height: 300px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    margin-top: 30px;
+    font-family: 'Merriweather', serif;
+}
+
+input.title {
+    min-width: 930px;
+    display: unset;
+    width: auto !important;
+    height: 52px;
+    padding-right: 100px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-left: 0px;
+    font-family: 'Merriweather', serif;
+}
+
+input.SearchInput {
+    display: unset;
+    height: 52px;
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    max-width: 1170px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+}
+
+button.SearchButton {
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    height: 50px;
+    width: 70px;
+    line-height: 0;
+    text-align: center;
+    white-space: nowrap;
+    /* vertical-align: middle; */
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: none;
+    border-radius: 4px;
+    margin-left: -70px;
+}
+
+button.SubmitButton {
+    display: unset;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    margin-top: -5px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    height: 52px;
+    width: 200px;
+    line-height: 0;
+    text-align: center;
+    white-space: nowrap;
+    /* vertical-align: middle; */
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db
+}
+
+button.SubmitButton:hover {
+    background-color: #2980b9;
+    background-image: none;
+    color: white;
+}
+
+button.SubmitButton:focus {
+    background-color: #2980b9;
+    background-image: none;
+    color: white;
+}
+
+button.SubmitButton:active {
+    background-color: #2980b9;
+    color: white;
+}
+
+button.SubmitButton:active:focus{
+    background-color: #2980b9;
+    color: white;
+}
+
+button.SearchButton {
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(255, 255, 255, 0.075);
+    background-color: #fff0;
+}
+
+.textarea {
+  word-spacing: 1rem;
+}
+
+.Write {
+  display:flex;
+  flex-direction:row;
+}
+
+h1.Title {
+  font-size: 18px;
+  font-family: 'Merriweather', serif;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul.Articles {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+hr.Subject {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.tooltip.right {
+  margin-left: 10px;
+}
+
+.css-10amf0o {
+    margin-left: auto;
+    margin-right: auto;
+}
