@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="240"
-   height="50"
-   viewBox="0 0 240 49.999997"
+   width="120"
+   height="26"
+   viewBox="0 0 120 26"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="30.310669"
-     inkscape:cy="-12.502948"
+     inkscape:zoom="5.6"
+     inkscape:cx="74.434469"
+     inkscape:cy="42.057349"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -53,14 +53,12 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-1002.3622)">
+     transform="translate(0,-1026.3622)">
     <g
-       id="g4585"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       transform="matrix(2,0,0,2,-134.06546,78.07067)">
+       id="g4154"
+       transform="translate(-66.60186,566.48999)">
       <rect
-         y="462.36221"
+         y="460.36221"
          x="67.14286"
          height="25"
          width="119"
@@ -71,14 +69,25 @@
          id="text3336"
          y="478.89285"
          x="71.915779"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.03794193px;line-height:125%;font-family:Menlo;-inkscape-font-specification:'Menlo, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#282c34;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.03800011px;line-height:125%;font-family:monospace;-inkscape-font-specification:'monospace, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#282c34;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="478.89285"
            x="71.915779"
            id="tspan3338"
            sodipodi:role="line">&lt;<tspan
    id="tspan4579"
-   style="fill:#282c34;fill-opacity:1">codecabulary</tspan>/&gt;</tspan></text>
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.03800011px;line-height:125%;font-family:monospace;-inkscape-font-specification:'monospace, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#282c34;fill-opacity:1">codecabulary</tspan>/&gt;</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3350"
+         y="468.84338"
+         x="178.86482"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.08148861px;line-height:125%;font-family:monospace;-inkscape-font-specification:'monospace, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#03a9f4;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="468.84338"
+           x="178.86482"
+           id="tspan3352"
+           sodipodi:role="line">β</tspan></text>
     </g>
   </g>
 </svg>
