@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FormGroup, FormControl, Button, Alert } from 'react-bootstrap';
+import { FormGroup, FormControl, Button, Alert, Modal } from 'react-bootstrap';
 import './style.css';
 import { API } from '../actions/types';
 
@@ -7,8 +7,12 @@ class Write extends Component {
 
   constructor() {
     super()
+
+    this.handleHide = this.handleHide.bind(this);
+
     this.state = {
-      isSent: false
+      isSent: false,
+      show: false
     }
   }
 
@@ -26,17 +30,36 @@ class Write extends Component {
     })
     .then(response => {
       if(response.ok) {
-        console.log('ok');
         this.setState({
-          isSent: true
+          isSent: true,
+          show: true
         })
       }
     })
   };
 
+  handleHide() {
+    this.setState({
+      isSent: false,
+      show: false
+    });
+  }
+
   render() {
     return (
       <div className="Write">
+        <Modal
+          show={this.state.show}
+          onHide={this.handleHide}
+          container={this}
+          aria-labelledby="contained-modal-title"
+        >
+          <Modal.Header closeButton>
+            <Modal.Title id="contained-modal-title">
+              It's on its way 🚲
+            </Modal.Title>
+          </Modal.Header>
+        </Modal>
         <form>
           <FormGroup
             controlId="formBasicText">

@@ -60,7 +60,7 @@ class Header extends Component {
 
     return(
       <div className="Header">
-        <Navbar collapseOnSelect>
+        <Navbar fluid>
           <Navbar.Header>
             <Link to={"/"} className="codecabulary"><Image src={codecabulary} responsive/></Link>
           </Navbar.Header>
