@@ -39,7 +39,7 @@ app.get('/api/subjects', (request, response) => {
 
 app.get('/api/subjects/:name', (request, response) => {
   var title = String(request.params.name);
-  client.query(`SELECT subject.name, article.title, article.link FROM articlesubject INNER JOIN subject ON articlesubject.subject_id = subject.subject_id INNER JOIN article ON articlesubject.article_id = article.article_id WHERE UPPER(subject.name) = UPPER('${title}')`, (err, table) => {
+  client.query(`SELECT subject.name, article.title, article.link FROM articlesubject INNER JOIN subject ON articlesubject.subject_id = subject.subject_id INNER JOIN article ON articlesubject.article_id = article.article_id WHERE UPPER(subject.name) = UPPER('${title}') ORDER BY article.title`, (err, table) => {
     if(err) {
       throw err;
     }
@@ -50,7 +50,7 @@ app.get('/api/subjects/:name', (request, response) => {
 
 app.get('/api/subject/:title', (request, response) => {
   var title = String(request.params.title).toUpperCase();
-  client.query(`SELECT subject.name, article.title, article.link FROM articlesubject INNER JOIN subject ON articlesubject.subject_id = subject.subject_id INNER JOIN article ON articlesubject.article_id = article.article_id WHERE UPPER(article.title) LIKE '${title}%' OR UPPER(article.title) LIKE '% ${title}%'`, (err, table) => {
+  client.query(`SELECT subject.name, article.title, article.link FROM articlesubject INNER JOIN subject ON articlesubject.subject_id = subject.subject_id INNER JOIN article ON articlesubject.article_id = article.article_id WHERE UPPER(article.title) LIKE '${title}%' OR UPPER(article.title) LIKE '% ${title}% ORDER BY article.title'`, (err, table) => {
     if(err) {
       throw err;
     }

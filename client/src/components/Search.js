@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { FormGroup, FormControl, Button } from 'react-bootstrap';
 import Article from './Article.js';
+import { API } from '../actions/types';
 
 class Search extends Component {
 
@@ -19,7 +20,7 @@ class Search extends Component {
     if(!text) {
       return;
     }
-    fetch(process.env.API + '/api/subject/' + e.target.value, {
+    fetch(API + '/api/subject/' + e.target.value, {
       headers : {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
