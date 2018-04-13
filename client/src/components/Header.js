@@ -68,7 +68,7 @@ class Header extends Component {
             <Nav pullRight>
               <NavItem eventKey={2} href="/search" componentClass={Link} to="/search"> Search </NavItem>
               <NavItem eventKey={3} href="/write" componentClass={Link} to="/write"> Write </NavItem>
-              <NavItem eventKey={1} href="https://github.com/aatalyk/codecabulary"> <i className="fa fa-github" data-fa-transform="shrink--6"></i> </NavItem>
+              <NavItem eventKey={1} href="https://github.com/aatalyk"> Developer </NavItem>
               <NavItem eventKey={1} onClick={this.updateClaps} href="#">
                 <OverlayTrigger placement="right" ref="overlayTrigger" trigger={null} overlay={<Tooltip placement="right" className="in" id="tooltip-right"><strong>{this.state.claps}</strong></Tooltip>}>
                   <p className="like"><i className="fa fa-star" ref={item => {this.target = item;}}></i></p>
