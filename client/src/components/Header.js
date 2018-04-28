@@ -72,8 +72,8 @@ class Header extends Component {
               <NavItem eventKey={1} onClick={this.updateClaps} href="#">
                 <OverlayTrigger placement="right" ref="overlayTrigger" trigger={null} overlay={<Tooltip placement="right" className="in" id="tooltip-right"><strong>{this.state.claps}</strong></Tooltip>}>
                   <p className="like"><i className="fa fa-star" ref={item => {this.target = item;}}></i></p>
-              </OverlayTrigger>
-            </NavItem>
+                </OverlayTrigger>
+              </NavItem>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
